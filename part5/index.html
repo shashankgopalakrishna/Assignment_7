@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 07 - Part 5</title>
+    <script src="js/dom-practice.js"></script>
+    <script>
+        //STEP 5
+        window.addEventListener("load", function () {
+            var task5Button = document.getElementById("task5");
+            task5Button.addEventListener("click", function() {
+                window.alert("I have been clicked");
+            });
+        });
+    </script>
+</head>
+<body>
+    <button onclick="displayMessage()">Task 1 old school</button>
+    <button id="task2">Task 2 Button</button>
+    <button id="task3">Task 3 using user defined function</button>
+    <button id="task4">Task 4 using callBack function</button>
+    <button id="task5">Task 5</button>
+</body>
+</html>
