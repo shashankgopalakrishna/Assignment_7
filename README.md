@@ -1,2 +1,2 @@
 # Assignment_7
- Javascript assignment
+ CS648 Javascript assignment
